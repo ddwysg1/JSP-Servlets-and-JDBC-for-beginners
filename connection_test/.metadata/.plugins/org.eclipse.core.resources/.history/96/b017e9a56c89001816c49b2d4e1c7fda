@@ -1,0 +1,9 @@
+<html>
+<%@ page import = "java.util.*" %>
+<body>
+<form action = "todo_demo.jsp">
+<input type = "text" name = "theItem" />
+<input type = "submit" value = "submit" />
+</form>
+</body>
+</html>	

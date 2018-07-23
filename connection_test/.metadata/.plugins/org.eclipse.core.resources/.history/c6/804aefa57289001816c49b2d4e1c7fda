@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Personalize your favorite language</title>
+</head>
+<body>
+<form action = "cookies-personalize-response.jsp">
+Select your favorite language:
+<select name = "favoritelanguage">
+	<option>Java</option>
+	<option>PHP</option>
+	<option>Ruby</option>
+	<option>C#</option>
+</select>
+</br></br>
+<input type = "submit" value = "submit" />
+</form>
+</body>
+</html>

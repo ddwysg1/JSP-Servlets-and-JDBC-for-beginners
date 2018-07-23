@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Confirmation</title>
+</head>
+<body>
+<%
+	String favlang = request.getParameter("favoriteLanguage");
+	Cookie theCookie = new Cookie("myApp.favoriteLanguage", favlang);
+	theCookie.setMaxAge(60 * 60 * 24 * 365);
+	response.addCookie(theCookie);
+%>
+
+</body>
+</html>

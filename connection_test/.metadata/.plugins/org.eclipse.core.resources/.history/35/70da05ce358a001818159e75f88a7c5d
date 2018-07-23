@@ -1,0 +1,17 @@
+package com.luv2code.servletdemo.mvctwo;
+
+import java.util.ArrayList;
+
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
+
+public class StudentDataUtil {
+	public List<Student> getStudents() {
+		List<Student> students = new ArrayList<>();
+		students.add(new Student("Mary", "Public", "mary@luv2code.com"));
+		students.add(new Student("Jack", "Johns", "jack@luv2code.com"));
+		students.add(new Student("Steve", "Rogers", "steve@luv2code.com"));
+		students.add(new Student("Mike", "Jones", "mike@luv2code.com"));
+		
+		return students;
+	}
+}

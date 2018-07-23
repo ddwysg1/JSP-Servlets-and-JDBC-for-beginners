@@ -1,0 +1,8 @@
+package com.luv2code.servletdemo.mvctwo;
+
+public class StudentDataUtil {
+	public List<Student> getStudents() {
+		List<Student> students = new ArrayList<>();
+		student.add(new Student("Mary", "Public", "mary@luv2code.com"));
+	}
+}

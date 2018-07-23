@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>HomePage</title>
+</head>
+<body>
+<%
+	String favlang = "Java";
+	
+    Cookie[] theCookies = request.getCookies();
+	if (theCookies != null) {
+		for (Cookie theCookie : theCookies) {
+			if ("myApp.favoriteLanguage".equals(theCookie.getName())){
+				favlang = theCookie.getValue();
+				break;
+			}
+		}
+	}
+%>
+Thanks! We select your language to: ${param.favoriteLanguage}
+
+<br/>
+
+<a href="cookies-homepage.jsp">return to homepage</a>
+
+</body>
+</html>

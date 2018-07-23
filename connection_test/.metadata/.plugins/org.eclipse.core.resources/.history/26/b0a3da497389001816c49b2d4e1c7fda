@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>Confirmation</title>
+</head>
+<body>
+<%
+	String favlang = request.getParameter("favoriteLanguage");
+
+%>
+</body>
+</html>
